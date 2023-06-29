@@ -25,4 +25,12 @@ else
 
 //FixExercises.MyName100Times();
 //FixExercises.OneTo100();
-FixExercises.Fibonacci();
+//FixExercises.Fibonacci();
+//Console.WriteLine(Int16.MaxValue);
+//Console.Beep();
+//Console.SetCursorPosition(0, 0);
+//(int Left, int Top) = Console.GetCursorPosition();
+//Console.SetCursorPosition(Left + 10, Top);
+//Console.WriteLine($"{Left}, {Top}");
+
+GeradorDePadroes.Run();
