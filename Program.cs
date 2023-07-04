@@ -1,4 +1,5 @@
 ﻿using K19_Treinamento.logica;
+using K19_Treinamento.orientacao_a_objetos;
 
 Console.WriteLine("Hello, World!");
 
@@ -15,4 +16,17 @@ else
     Console.WriteLine(); // "No arguments"
 }
 
-GeradorDePadroes.Main();
+//GeradorDePadroes.Main();
+//TestaCliente.Main();
+//TestaCartaoDeCredito.Main();
+//TestaAgencia.Main();
+//TestaConta.Main();
+//TestaValoresPadrao.Main();
+//TestaAluno.Main();
+//TestaFuncionario.DeEscola();
+//TestaTurma.Main();
+//TestaClienteECartao.Main();
+//TestaContaEAgencia.Main();
+//TestaAlunoETurma.Main();
+//TestaMetodosConta.Main();
+TestaFuncionario.DeEmpresa();
