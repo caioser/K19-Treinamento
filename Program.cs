@@ -14,3 +14,5 @@ else
 {
     Console.WriteLine(); // "No arguments"
 }
+
+GeradorDePadroes.Main();
