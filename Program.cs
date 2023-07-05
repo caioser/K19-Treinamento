@@ -1,5 +1,6 @@
 ﻿using K19_Treinamento.logica;
 using K19_Treinamento.orientacao_a_objetos;
+using K19_Treinamento.orientacao_a_objetos.complementar;
 
 Console.WriteLine("Hello, World!");
 
@@ -32,4 +33,6 @@ else
 //TestaFuncionario.DeEmpresa();
 //TestaGerente.Main();
 
-TestaMetodoTransfere.Main();
+//TestaMetodoTransfere.Main();
+//TestaContaDeBanco.Main();
+TestaFuncionarioDeBanco.Main();
