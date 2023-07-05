@@ -29,4 +29,7 @@ else
 //TestaContaEAgencia.Main();
 //TestaAlunoETurma.Main();
 //TestaMetodosConta.Main();
-TestaFuncionario.DeEmpresa();
+//TestaFuncionario.DeEmpresa();
+//TestaGerente.Main();
+
+TestaMetodoTransfere.Main();

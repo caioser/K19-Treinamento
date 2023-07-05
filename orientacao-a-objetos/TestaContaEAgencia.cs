@@ -4,10 +4,10 @@
     {
         public static void Main()
         {
-            Agencia a = new Agencia();
-            Conta c = new Conta();
+            Agencia a = new Agencia(1234);
+            Conta c = new Conta(a);
 
-            a.numero = 178;
+            //a.numero = 178;
             c.saldo = 1000;
 
             c.agencia = a;

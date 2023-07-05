@@ -7,6 +7,11 @@
         public double limite = 100;
         public Agencia agencia;
 
+        public Conta(Agencia agencia)
+        {
+            this.agencia = agencia;
+        }
+
         public void Deposita(double valor)
         {
             this.saldo += valor;
@@ -25,6 +30,12 @@
         public double ConsultaSaldoDisponivel()
         {
             return this.saldo + this.limite;
+        }
+
+        public void Transfere(Conta destino, double valor)
+        {
+            this.saldo -= valor;
+            destino.saldo += valor;
         }
     }
 }

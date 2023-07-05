@@ -4,7 +4,8 @@
     {
         public static void Main()
         {
-            Conta c = new Conta();
+            Agencia a = new Agencia(1234);
+            Conta c = new Conta(a);
 
             c.Deposita(1000);
             c.ImprimeExtrato();

@@ -4,12 +4,12 @@
     {
         public static void Main()
         {
-            Conta c1 = new Conta();
+            Conta c1 = new Conta(new Agencia(174));
             c1.numero = 1234;
             c1.saldo = 1000;
             c1.limite = 500;
 
-            Conta c2 = new Conta();
+            Conta c2 = new Conta(new Agencia(158));
             c2.numero = 5678;
             c2.saldo = 2000;
             c2.limite = 250;

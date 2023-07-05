@@ -5,5 +5,10 @@
         public int numero;
         public string dataDeValidade;
         public Cliente cliente; // Agregação
+
+        public CartaoDeCredito(int numero)
+        {
+            this.numero = numero;
+        }
     }
 }

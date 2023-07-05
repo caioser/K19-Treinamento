@@ -5,10 +5,10 @@
         public static void Main()
         {
             Cliente c = new Cliente();
-            CartaoDeCredito cdc = new CartaoDeCredito();
+            CartaoDeCredito cdc = new CartaoDeCredito(111111);
 
             c.nome = "Rafael Consentino";
-            cdc.numero = 111111;
+            //cdc.numero = 111111;
 
             cdc.cliente = c;
 
